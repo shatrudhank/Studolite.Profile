@@ -1,0 +1,27 @@
+
+.studolite-blog-right{
+    border: 2px solid #323232bf;
+    margin-right: 30px;
+    min-height: 65vh;
+}
+.studolite-blog-right ul{
+    list-style: none;
+    padding: 20px 20px;
+    color: white;
+    height: 100%;
+
+}
+.studolite-blog-main{
+    border: 2px solid #323232bf;
+    min-height: 65vh;
+}
+.studolite-blog-right  a{
+    text-decoration: none;
+    display: block;
+    color: white;
+    padding: 8px 16px;
+}
+.studolite-blog-right  a:hover {
+color: rgb(179, 173, 173);
+}
+

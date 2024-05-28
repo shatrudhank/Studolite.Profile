@@ -1,0 +1,84 @@
+.studolite-btn{
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: bold;
+    padding:8px 8px 8px 8px;
+    background-color: #3e3e3ebf;
+    margin-bottom: 10px;
+    border: 2px solid #323232bf;
+    border-radius: 5px;
+}
+
+.studolite-btn:hover{
+    box-shadow: 0px 0px 4px;
+}
+
+/* Plus icon start*/
+.studolite-add-icon{
+    border: 0.5px solid #3e3e3ebf;
+    width: 32px;
+    height: 32px;
+    border-radius:50% ;
+    cursor: pointer;
+    position: relative;
+ }
+ 
+ .studolite-add-icon::after {
+     content: "";
+     position: absolute;   
+     background-color: white;
+     height: 2px;
+     margin-top: -5px;
+     top: 62%;
+     left: 4px;
+     right: 4px;
+   }
+ .studolite-add-icon::before {
+     content: "";
+     position: absolute;   
+     background-color: white;
+     width: 2px;
+     left: 47%;
+     top: 4px;
+     bottom: 4px;
+     
+   }
+ 
+  
+ /* Plus icon End*/
+ /* Cross icon start*/
+ .studolite-cross-icon{
+   border: 0.5px solid #1a2e35;
+   width: 32px;
+   height: 32px;
+   border-radius:50% ;
+   cursor: pointer;
+   position: relative;
+   float: right;
+   display: none;
+ }
+ 
+ .studolite-cross-icon::after {
+    content: "";
+    position: absolute;   
+    background-color: rgb(171, 96, 96);
+    height: 2px;
+    margin-top: -5px;
+    top: 62%;
+    left: 4px;
+    right: 4px;
+    rotate: 45deg;
+  }
+ .studolite-cross-icon::before {
+    content: "";
+    position: absolute;   
+    background-color: rgb(171, 96, 96);
+    width: 2px;
+    left: 47%;
+    top: 4px;
+    bottom: 4px;
+    rotate: 45deg;
+  }
+ 
+ 
+ /* Cross icon End*/

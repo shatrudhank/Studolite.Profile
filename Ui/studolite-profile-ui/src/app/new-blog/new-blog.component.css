@@ -1,0 +1,53 @@
+
+ 
+ [contenteditable][placeholder]:empty:before {
+   content: attr(placeholder);
+   position: absolute;
+   color: gray;
+   background-color: transparent;
+ }
+   .studolite-new-blog-section{
+       margin-bottom: 5vh;
+       box-shadow: 0px 0px 0.5px 0.5px #888888;
+       
+   }
+   .studolite-new-blog-section:hover .studolite-cross-icon{
+     display: block;
+   }
+   .studolite-new-blog-content{
+     min-height: 30vh;
+     border: none;
+     margin: 5px;
+     padding-left: 30px;
+     padding-right: 30px;
+     color: rgba(0, 0, 0, .84);
+     font-weight: 400;
+   }
+   .studolite-new-blog-content:focus{
+     outline: none;
+     box-shadow: 0px 0px 0.5px 0.5px #888888;
+   }
+   .studolite-new-blog-header{
+     border: none;
+     margin: 5px;
+   
+   }
+   .studolite-new-blog-header:focus
+   {
+     outline: none;
+     box-shadow: 0px 0px 0.5px 0.5px #888888;
+   }
+   .studolite-new-blog-header h4{
+     position: relative;
+     top: 5px;
+     padding-left: 20px;
+     padding-right: 20px;
+     color: rgba(0, 0, 0, .84);
+   }
+   .studolite-new-blog-header h4:focus{
+     outline: none;
+     box-shadow: 0px 0px 0.5px 0.5px #888888;
+   }
+   .studolite-new-blog-footer{
+     height: 2vh;
+   }

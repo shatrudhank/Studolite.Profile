@@ -1,0 +1,30 @@
+<section>
+
+    <div class="row">
+        <div class="col-md-12">
+            <div >
+                <a routerLink="../new-blog" class="studolite-btn studolite-right" style="margin-right: 29px;">Add new blog</a>
+            </div>
+           
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-8">  
+            
+            <div class="row ">
+                <div class="col-md-12 studolite-blog-main">
+                    
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 ">
+            <div class="studolite-blog-right">
+                <ul>
+                    <li *ngFor="let blog of blogArray"><a href="#">{{blog.name}}</a></li>
+                </ul>
+            </div>
+            
+        </div>
+    </div>
+</section>

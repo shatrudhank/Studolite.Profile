@@ -1,0 +1,24 @@
+
+<section>
+    <div class="studolite-body-header"></div>
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-10" #newBlogContent>  
+                 
+            <div class="studolite-new-blog-section" *ngFor="let content of blogContents;let  i = index">
+                <div class="studolite-cross-icon" (click)="removeSelectedSection(i)"></div> 
+                <br/>   
+                <div class="studolite-new-blog-header" >
+                    <h4 contenteditable="true" placeholder="Header"></h4>
+                </div>
+                <div class="studolite-new-blog-content" contenteditable="true" placeholder="Content">
+                    
+                </div>
+                <div class="studolite-new-blog-footer"></div>
+            </div>
+            <div class="studolite-add-icon" (click)="addNewSection()"></div>
+        </div>
+
+        <div class="col-md-1"></div>
+    </div>
+</section>
